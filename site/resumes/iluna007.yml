@@ -1,0 +1,213 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Iker    
+    last_name: Luna
+    
+    # Define yourself in 4-5 words
+    motto: I love to play Towerfall 
+    
+    # Focus
+    focus: Desginer & Developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Born in 1987 in Managua, Nicaragua. I originally studied architecture design, but after a while, 
+      I decided to get more involved in programming, coding, and visual arts. 
+      I am pursuing new expressions through experiments.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: arquitectoikerluna@gmail.com #optional
+    phone: +506-6361-3101 #optional
+    website: None #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: iluna007 #optional
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C2-IELTS
+
+
+
+    # Interests or hobbies
+    interests:
+      - item: Scuba Diving
+
+      - item: Reading
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Master in Advanced Architecture
+      university: IAAC, Barcelona
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2013
+      details: |
+        IAAC’s Master in Advanced Architecture (1 or 2-year program) revolutionises current architectural approaches. 
+        By training professionals to take informed, creative and innovative actions, the program encourages them to 
+        become changemakers and pioneers in the arena of architecture and the built environment. Based on a “Learning by Doing” 
+        and a “Design by Research” methodologies the Master in Advanced Architecture nurtures critical thinking, 
+        ingenuity and the materialisation of ideas.
+        
+        Following a multidisciplinary and multiscalar approach, the programme presents an unique academic structure, 
+        where students can create their own customised study agenda, according to their interests and their future 
+        career aspirations. Students can choose from a selection of different courses from technologies, to approaches 
+        and development methodologies allowing them to build meaningful proposals to face the challenges of architecture today.
+
+    - degree: BSc Architecture
+      university: Universidad Americana, Managua
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005 - 2009
+      details: |
+        The Study Plan is oriented to provide students with knowledge that allows consistency of the architectural design with 
+        the technical construction proposal, along with the appropriate use of environmental criteria. Likewise, students will 
+        obtain an explicit knowledge of our history and social development that will allow them to provide an innovative and, 
+        therefore, competitive response to the demands of the environment.
+
+    - degree: Full Stack Developer
+      university: 4Geeks Academy, Miami
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - Present
+      details: |
+        Learn the most sought-after and highest-paid technologies and become a pro at building websites. 
+        Python and JavaScript developers are consistently in demand, making them the top programming languages to master in 2023. 
+        Code in a web development language, learn algorithm scripting and build awesome apps using front-end libraries. 
+        Utilize APIs to consume data and enhance your app's functionality. Finalize the program by developing and presenting 
+        your own project, gaining game-changing hands-on experience. Reshape your mindset and embrace the programming, logic, 
+        and research skills to succeed in the tech industry.
+
+       
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      This is a list of my projects till today.
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/iluna007/exercise-postcard"
+        tagline: "The ideal first project for anyone interested in practicing HTML/CSS with a real life example."
+
+      - title: Instagram post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/iluna007/githubusername-instagram01"
+        tagline: "A instagram post using html and css"
+
+      - title: Damain Name Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/iluna007/ikerluna_DomainNameGenerator"
+        tagline: "My first project using JavaScript"
+
+      - title: Excuse generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/iluna007/excuse-generator-javascript-cli"
+        tagline: "My second project using JavaScript"
+
+      - title: Instagram post Card
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/iluna007/-iluna007_IPC"
+        tagline: "A second instagram post using html and css and bootstrap"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 100%
